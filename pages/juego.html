@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body onload="inicioJuego()">
     <select id="jugada">
         <option value="piedra">Piedra</option>
         <option value="papel">Papel</option>
         <option value="tijeras">Tijeras</option>
     </select>
-    <input type="button" value="Jugar" onclick="jugar()"/>
+    <input id="button" type="button" value="Jugar 💕" onclick="jugar()"/>
 
     <div id="datosJugador">
 
@@ -21,6 +21,6 @@
 
     </div>
 
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
